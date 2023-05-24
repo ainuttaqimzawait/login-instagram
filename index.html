@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!--font style-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+    
+    <style>
+      body{
+          margin:0;
+          padding:0;
+          font-family:apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      }
+        .container{
+            margin: 50px auto;
+            width: 900px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero-image{
+            width:400px;
+            height: 600px;
+            margin-right: 50px;
+        }
+        .form-container{
+            width:350px;
+            height: 600px;
+        }
+        .signin-container{
+            width: 350px;
+            height: 400px;
+            margin: 0 0 10px 0;
+            padding: -5px 0 10px 0;
+            border: 0.5px solid #e1e8e6;
+        }
+        .signin-container h1{
+            font-family: 'Ms Madi', cursive;
+            font-size:50px;
+        }
+        .signin-container input{
+            background-color: #edf2ef;
+            font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            width: 258px;
+            height: 36px;
+            box-sizing: border-box;
+            border: 1px solid #e1e8e6;
+            border-radius: 3px;
+            margin-bottom: 10px;
+        }
+        .signin-container button{
+            background-color: #3578e5;
+            font-size: 14px;
+            font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            color: #ffffff;
+            width: 258px;
+            height: 33px;
+            box-sizing: border-box;
+            border: 1px solid #e1e8e6;
+            border-radius: 8px;
+            margin: 10px 0 10px 0;
+        }
+        .baris{
+            height:20px;
+            margin:10px 0 20px 0;
+            color:#5A5A5A;
+      }
+        .baris .garis{
+            border:1px solid #e1e8e6;
+            height:0,5px;
+            width:90px;
+            display:inline-block;
+            margin:0px 0px 5px 47px;
+         }
+        .baris .atau{
+            margin: 0 -35px 0 15px;
+            display:inline-block;
+        }
+        .signin-facebook{
+            display:flex;
+            justify-content:center;
+      }
+      .signin-facebook a{
+          text-decoration:none;
+          font-weight:bold;
+          color:blue;
+      }
+      .signin-facebook a img{
+          margin-bottom:-7px;
+          padding-right:5px;
+     }
+     .lupa-sandi{
+         margin:20px auto;
+         display:flex;
+         justify-content:center;
+     }
+     .lupa-sandi a{
+         text-decoration:none;
+         color:#5A5A5A;
+     }
+     .signup-container{
+         width:350px;
+         height:75px;
+         border:0.5px solid #e1e8e6;
+         display:flex;
+         justify-content:center;
+         align-items:center;
+     }
+     .signup-container center a{
+         text-decoration:none;
+         color:#6399e6;
+         font-weight:bold;
+     }
+     .download-app p{
+         height:40px;
+         display:flex;
+         justify-content:center;
+         align-items:center;
+         margin-bottom:-5px;
+     }
+     .download-app .store-app{
+         display:flex;
+         justify-content:center;
+         align-items:center;
+     }
+     .footer-container{
+        font-size: 14px;
+        text-decoration: none;
+        color: #5a5a5a;
+     }
+     .footer-container .nav-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        margin: 50px auto 10px;
+     }
+     .nav-footer ul{
+        display: flex;
+        list-style: none;
+        width: 100%;
+        padding: 0 10px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+     }
+     .nav-footer ul li{
+        padding: 2px;
+     }
+     .nav-footer ul li a{
+        text-decoration: none;
+        color: #5a5a5a;
+     }
+     .copy-language{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+     }
+     .copy-language select{
+        color: #5a5a5a;
+        font-size: 14px;
+        font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        border: none;
+        padding-right: 20px;
+     }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+    <!--hero image-->
+        <div class="hero-image">
+                <img src="https://drive.google.com/uc?id=1NtluYpnjAhY8PjRczAp7WRy1pie_L4fX" alt="instagram image" height="600px" width="400px">
+        </div>
+            
+        <!--form container-->
+        <div class="form-container">
+            <form>
+                <!--sign in-->
+                <div class="signin-container">
+                    <center>
+                        <h1>instagram</h1>
+                        <input type="text" placeholder="Nomor telepon, nama pengguna, atau email">
+                        <input type="password" placeholder="Kata Sandi">
+                        <button>masuk</button>
+                    </center>
+                    <div class="baris">
+                        <div class="garis"></div>
+                        <div class="atau">ATAU</div>
+                        <div class = "garis"></div>
+                    </div>
+                      
+                    <!--sign in lewat facebook-->
+                    <div class = "signin-facebook">
+                        <a href = "#">
+                            <img src = "https://drive.google.com/uc?id=1NHBLpiKt3HM_rSxaAwxP8OA4c_nBogC5" width = "25px" height = "25px">Masuk Dengan Facebook</img>
+                        </a>
+                    </div>
+                      
+                    <!--lupa kata sandi-->
+                    <div class = "lupa-sandi">
+                        <a href = "#">Lupa kata sandi?</a>
+                    </div>
+                </div>
+                    
+                <!--sign up-->
+                <div class = "signup-container">
+                    <center>
+                        Tidak punya akun? <a href = "#">Buat akun</a>
+                    </center>
+                </div>
+            </form>
+                    
+            <!--download store apps-->
+            <div class = "download-app">
+                <p>Dapatkan Aplikasi</p>
+                <div class = "store-app">
+                    <a href = "#">
+                       <img src = "https://drive.google.com/uc?id=1NotGoMMmOsCzveq4aKDNxpK7XRHm_0n3" alt = "google apps store" width = "150px" height = "65px"></img>
+                    </a>
+                    <a href = "#">
+                       <img src= "https://drive.google.com/uc?id=1Ns625O1OYaCKBh_Zzg7uX6b4DJZl7dih" alt="google play store" width = "125px" height = "45px"></img>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-container">
+        <div class="nav-footer">
+            <ul>
+                <li><a href="#">Meta</a></li>
+                <li><a href="#">Tentang</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Bantuan</a></li>
+                <li><a href="#">API</a></li>
+                <li><a href="#">Privasi</a></li>
+                <li><a href="#">Ketentuan</a></li>
+                <li><a href="#">Akun Teratas</a></li>
+                <li><a href="#">Lokasi</a></li>
+                <li><a href="#">Instagram Lite</a></li>
+                <li><a href="#">Pengunggahan Kontak dan Non pengguna</a></li>
+                <li><a href="#">Verivikasi Meta</a></li>
+            </ul>
+        </div>
+        <div class="copy-language">
+            <div class="language">
+                <select name="language" id="copy-language">
+                    <option value="bahasa indonesia">bahasa indonesia</option>
+                    <option value="english">english</option>
+                    <option value="japan">japan</option>
+                    <option value="mandarin">mandarin</option>
+                    <option value="bahasa jawa">bahasa jawa</option>
+                </select>
+            </div>
+            <div class="copyright">
+                &copy 2023 Instagram From Meta
+            </div>
+        </div>
+    </div>
+</body>
+</html>
